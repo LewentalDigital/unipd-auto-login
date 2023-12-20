@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Unipd Auto Login",
+    "version": "0.1.0",
+    "description": "Automatizza il dannato login che si resetta ogni 30 minuti",
+
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "js": ["content.js"],
+        "matches": ["https://shibidp.cca.unipd.it/*", "https://stem.elearning.unipd.it/*"]
+    }],
+    "web_accessible_resources": [
+        "ttten.svg"
+    ]
+
+}

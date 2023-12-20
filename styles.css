@@ -1,0 +1,5 @@
+body {
+    background-repeat: repeat !important;
+    background-size: 10% !important;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/ttten.svg') !important;
+}
