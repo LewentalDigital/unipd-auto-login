@@ -13,8 +13,8 @@ var loginForm = document.getElementById("user-login-form");
 
 setTimeout(() => {
     radioBtn.checked = true;
-    inputNome.value = "sebastiano.lewental";
+    inputNome.value = "nome.cognome";
     inputPassword.focus();
     loginBtn.style.background = "red";
-    //loginBtn.click();
+    //loginBtn.click(); // non funziona
 }, 100);
